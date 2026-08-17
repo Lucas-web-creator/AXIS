@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth bg-slate-50 text-slate-800">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AXIS Productivity Suite — A Nova Geração de Produtividade Web</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans antialiased selection:bg-emerald-200 selection:text-emerald-900 relative overflow-x-hidden">
+
+  <!-- LUZES DE FUNDO SUAVES (LIGHT GLOWS) -->
+  <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-gradient-to-tr from-emerald-200/40 via-sky-100/50 to-slate-100/50 blur-[100px] pointer-events-none rounded-full"></div>
+
+  <!-- NAVBAR FIXA (BRANCA COM GLASSMORPHISM) -->
+  <header class="fixed top-0 left-0 right-0 h-20 border-b border-slate-200/80 bg-white/80 backdrop-blur-md z-50 px-6 lg:px-12 flex items-center justify-between shadow-sm">
+    <div class="flex items-center gap-3">
+      <!-- LOGO HEADER: TOTALMENTE ARREDONDADA COM EFITO 3D -->
+      <img src="./logooficial.png" alt="AXIS Suite" class="h-12 w-12 object-cover rounded-full shadow-md shadow-emerald-500/20 border-2 border-white transform hover:scale-105 transition-transform">
+    </div>
+
+    <!-- MENU DE NAVEGAÇÃO RÁPIDA -->
+    <nav class="hidden md:flex items-center gap-8 text-xs font-bold text-slate-600 uppercase tracking-widest">
+      <a href="#collect" class="hover:text-emerald-600 transition-colors">Collect</a>
+      <a href="#doc" class="hover:text-emerald-600 transition-colors">Doc</a>
+      <a href="#sheet" class="hover:text-emerald-600 transition-colors">Sheet</a>
+      <a href="#present" class="hover:text-emerald-600 transition-colors">Present</a>
+      <a href="#view" class="hover:text-emerald-600 transition-colors">View</a>
+    </nav>
+
+    <a href="#ecosystem" class="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-white text-xs font-bold rounded-full transition-all shadow-lg shadow-emerald-500/25 hover:scale-[1.02] active:scale-[0.98]">
+      Explorar Suíte
+    </a>
+  </header>
+
+  <!-- HERO SECTION (TEMA CLARO E DESTACADO) -->
+  <section class="relative pt-40 pb-20 px-6 lg:px-12 max-w-7xl mx-auto text-center space-y-8">
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs font-bold shadow-sm">
+      <span class="flex h-2 w-2 rounded-full bg-emerald-500 animate-ping"></span>
+      <span>Ecossistema AXIS</span>
+    </div>
+
+    <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 max-w-4xl mx-auto leading-tight">
+      Engenharia de alta performance para a sua rotina de trabalho.
+    </h1>
+
+    <p class="text-slate-600 text-base md:text-lg max-w-2xl mx-auto font-normal leading-relaxed">
+      Uma suíte completa de ferramentas produtivas integradas — formulários, documentos, planilhas, apresentações e analytics — operando direto no navegador.
+    </p>
+
+    <!-- LOGO HERO: ARREDONDADA ESTILO 3D COM SOMBRA PROJETADA -->
+    <div class="pt-6 flex justify-center">
+      <div class="relative group">
+        <div class="absolute -inset-1 bg-gradient-to-r from-emerald-300 to-teal-300 rounded-full blur-xl opacity-50 group-hover:opacity-80 transition duration-500"></div>
+        <div class="relative bg-white p-3 rounded-full border-4 border-white shadow-2xl shadow-emerald-500/20 transform group-hover:-translate-y-1 transition-transform">
+          <img src="./logooficial.png" alt="AXIS Brand" class="h-32 w-32 object-cover rounded-full">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÕES INDIVIDUAIS DOS PROGRAMAS -->
+  <div id="ecosystem" class="max-w-7xl mx-auto px-6 lg:px-12 space-y-16 py-8">
+
+    <!-- 1. AXIS COLLECT -->
+    <section id="collect" class="group bg-white border border-slate-200/80 hover:border-emerald-300 rounded-3xl p-8 lg:p-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center transition-all duration-300 shadow-xl shadow-slate-200/50 hover:shadow-2xl hover:shadow-emerald-500/10">
+      <div class="space-y-6">
+        <span class="inline-block text-[11px] font-mono font-bold text-emerald-700 uppercase tracking-widest bg-emerald-50 px-3.5 py-1.5 rounded-full border border-emerald-200">
+          Coleta & Formulários Dinâmicos
+        </span>
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">Axis Collect</h2>
+        <p class="text-slate-600 text-sm md:text-base leading-relaxed">
+          Crie pesquisas, questionários e formulários orientados a schemas com extrema velocidade. O Axis Collect automatiza a captação de respostas com validações nativas e interface fluida.
+        </p>
+        <ul class="space-y-3 text-xs md:text-sm text-slate-700">
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 font-bold text-xs">✓</span>
+            Construtor visual de perguntas e opções em tempo real
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 font-bold text-xs">✓</span>
+            Validação e formatação automática de payloads
+          </li>
+        </ul>
+      </div>
+      <!-- CARD IMAGEM 3D / ARREDONDADA -->
+      <div class="flex justify-center items-center bg-slate-50 p-10 rounded-2xl border border-slate-100">
+        <div class="relative group-hover:-translate-y-2 group-hover:rotate-1 transition-all duration-300">
+          <img src="Axisslogos (3).png" alt="Axis Collect" class="w-48 h-48 object-cover rounded-full border-4 border-white shadow-2xl shadow-emerald-500/20">
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. AXIS DOC -->
+    <section id="doc" class="group bg-white border border-slate-200/80 hover:border-emerald-300 rounded-3xl p-8 lg:p-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center transition-all duration-300 shadow-xl shadow-slate-200/50 hover:shadow-2xl hover:shadow-emerald-500/10">
+      <div class="space-y-6 lg:order-2">
+        <span class="inline-block text-[11px] font-mono font-bold text-emerald-700 uppercase tracking-widest bg-emerald-50 px-3.5 py-1.5 rounded-full border border-emerald-200">
+          Processamento de Texto Estruturado
+        </span>
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">Axis Doc</h2>
+        <p class="text-slate-600 text-sm md:text-base leading-relaxed">
+          Edição de documentos de alta precisão com renderização limpa do DOM. O Axis Doc entrega suporte completo a texto rico, exportações estruturadas e manipulação rápida sem o peso de editores tradicionais.
+        </p>
+        <ul class="space-y-3 text-xs md:text-sm text-slate-700">
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 font-bold text-xs">✓</span>
+            Formatação de comandos de documento em tempo real
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 font-bold text-xs">✓</span>
+            Arquitetura focada na edição de relatórios e artigos
+          </li>
+        </ul>
+      </div>
+      <!-- CARD IMAGEM 3D / ARREDONDADA -->
+      <div class="flex justify-center items-center bg-slate-50 p-10 rounded-2xl border border-slate-100 lg:order-1">
+        <div class="relative group-hover:-translate-y-2 group-hover:-rotate-1 transition-all duration-300">
+          <img src="./Axisslogos (4).png" alt="Axis Doc" class="w-48 h-48 object-cover rounded-full border-4 border-white shadow-2xl shadow-emerald-500/20">
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. AXIS SHEET -->
+    <section id="sheet" class="group bg-white border border-slate-200/80 hover:border-emerald-300 rounded-3xl p-8 lg:p-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center transition-all duration-300 shadow-xl shadow-slate-200/50 hover:shadow-2xl hover:shadow-emerald-500/10">
+      <div class="space-y-6">
+        <span class="inline-block text-[11px] font-mono font-bold text-emerald-700 uppercase tracking-widest bg-emerald-50 px-3.5 py-1.5 rounded-full border border-emerald-200">
+          Planilhas & Dados Bidimensionais
+        </span>
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">Axis Sheet</h2>
+        <p class="text-slate-600 text-sm md:text-base leading-relaxed">
+          Motor de cálculo e gerenciamento de tabelas reativas. O Axis Sheet permite organizar grandes conjuntos de dados em grids bidimensionais operando diretamente na memória com respostas instantâneas.
+        </p>
+        <ul class="space-y-3 text-xs md:text-sm text-slate-700">
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 font-bold text-xs">✓</span>
+            Grade interativa para manipulação e ordenação de células
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 font-bold text-xs">✓</span>
+            Avaliação e reatividade de fórmulas em tempo de execução
+          </li>
+        </ul>
+      </div>
+      <!-- CARD IMAGEM 3D / ARREDONDADA -->
+      <div class="flex justify-center items-center bg-slate-50 p-10 rounded-2xl border border-slate-100">
+        <div class="relative group-hover:-translate-y-2 group-hover:rotate-1 transition-all duration-300">
+          <img src="./Axisslogos (5).png" alt="Axis Sheet" class="w-48 h-48 object-cover rounded-full border-4 border-white shadow-2xl shadow-emerald-500/20">
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. AXIS PRESENT -->
+    <section id="present" class="group bg-white border border-slate-200/80 hover:border-emerald-300 rounded-3xl p-8 lg:p-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center transition-all duration-300 shadow-xl shadow-slate-200/50 hover:shadow-2xl hover:shadow-emerald-500/10">
+      <div class="space-y-6 lg:order-2">
+        <span class="inline-block text-[11px] font-mono font-bold text-emerald-700 uppercase tracking-widest bg-emerald-50 px-3.5 py-1.5 rounded-full border border-emerald-200">
+          Apresentações & Viewports Visuais
+        </span>
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">Axis Present</h2>
+        <p class="text-slate-600 text-sm md:text-base leading-relaxed">
+          Crie e projete apresentações impactantes. O Axis Present gerencia slides como viewports isoladas, permitindo posicionar elementos com precisão e controlar o fluxo de telas de forma fluida.
+        </p>
+        <ul class="space-y-3 text-xs md:text-sm text-slate-700">
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 font-bold text-xs">✓</span>
+            Gerenciamento de quadros e composição modular
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 font-bold text-xs">✓</span>
+            Modo de exibição e projeção otimizado
+          </li>
+        </ul>
+      </div>
+      <!-- CARD IMAGEM 3D / ARREDONDADA -->
+      <div class="flex justify-center items-center bg-slate-50 p-10 rounded-2xl border border-slate-100 lg:order-1">
+        <div class="relative group-hover:-translate-y-2 group-hover:-rotate-1 transition-all duration-300">
+          <img src="./Axisslogos (6).png" alt="Axis Present" class="w-48 h-48 object-cover rounded-full border-4 border-white shadow-2xl shadow-emerald-500/20">
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. AXIS VIEW -->
+    <section id="view" class="group bg-white border border-slate-200/80 hover:border-emerald-300 rounded-3xl p-8 lg:p-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center transition-all duration-300 shadow-xl shadow-slate-200/50 hover:shadow-2xl hover:shadow-emerald-500/10">
+      <div class="space-y-6">
+        <span class="inline-block text-[11px] font-mono font-bold text-emerald-700 uppercase tracking-widest bg-emerald-50 px-3.5 py-1.5 rounded-full border border-emerald-200">
+          Business Intelligence & Analytics
+        </span>
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">Axis View</h2>
+        <p class="text-slate-600 text-sm md:text-base leading-relaxed">
+          Transforme payloads de dados brutos e pesquisas do Axis Collect em inteligência visual. O Axis View consolida estatísticas e gráficos dinâmicos em dashboards limpos para tomada de decisão.
+        </p>
+        <ul class="space-y-3 text-xs md:text-sm text-slate-700">
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 font-bold text-xs">✓</span>
+            Agregação automática de dados de formulários e planilhas
+          </li>
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 font-bold text-xs">✓</span>
+            Visualização gráfica e métricas em tempo real
+          </li>
+        </ul>
+      </div>
+      <!-- CARD IMAGEM 3D / ARREDONDADA -->
+      <div class="flex justify-center items-center bg-slate-50 p-10 rounded-2xl border border-slate-100">
+        <div class="relative group-hover:-translate-y-2 group-hover:rotate-1 transition-all duration-300">
+          <img src="./Axisslogos (1).png" alt="Axis View" class="w-48 h-48 object-cover rounded-full border-4 border-white shadow-2xl shadow-emerald-500/20">
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-200 py-10 px-6 text-center text-xs text-slate-500 mt-20 bg-white">
+    <p class="font-semibold text-slate-600">AXIS Productivity Suite — Engenharia de Front-end</p>
+  </footer>
+
+</body>
+</html>
