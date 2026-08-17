@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- CABEÇALHO COM A LOGO CENTRALIZADA E PROGRAMAS ABAIXO -->
-<img src="path/to/sua/image_2.png" alt="AXIS Productivity Suite Logos" width="100%" max-width="800px">
+
 
 # ⚡ Suíte de Produtividade AXIS
 
